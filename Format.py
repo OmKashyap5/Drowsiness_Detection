@@ -1,4 +1,3 @@
-```python
 video_capture=cv2.VideoCapture(0)
 if(video_capture.isOpened()):
     #This loop runs for the time the vehicle is on. It can beforcefully shut by pressing 'q' or any command as possible. The manufacturer
@@ -47,4 +46,3 @@ if(video_capture.isOpened()):
 else:
     print("Camera is closed. Try giving other camera index in videocapture")
 video_capture.release()
-```
